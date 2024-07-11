@@ -1,0 +1,731 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 800px;
+    font-style: normal;
+  }
+  
+.btn-primary{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 24px 21px 24px;
+    margin: 20px auto;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+
+    
+
+}
+.header{
+    
+    background-image: url("../assets/Hero-bg.png");
+    width:943px;
+
+    height: 436px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto;
+
+    
+    background-position:cover ;
+   
+
+}
+
+
+
+
+.banner{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px auto;
+}
+
+
+
+.banner-content .title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.banner-content.subtitle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    
+}
+
+.banner-profile-pic{
+    width: 160.8px;
+    height: 160.8px;
+    
+}
+
+
+/*second part*/
+
+
+
+
+
+.btn-normal{
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+   
+}
+
+
+
+
+.header1-content .title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 50px;
+}
+.header1-content .subtitle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+ 
+
+
+
+.section1 {
+    width: 633.82px;
+    height: 225.12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0;
+    margin: 32px auto;    
+}
+
+.section1-contant .title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.section1-contant .subtitle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+
+}
+.section1 .image{
+    width: 173px;
+    height: 145.39px;
+    left: 0.36%;
+    right: -0.36%;
+    top: 1.74%;
+    bottom: -1.74%;
+}
+
+
+
+.section1-contant .images{
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+
+.article{
+    width: 633.82px;
+    height: 225px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin:auto;
+    
+
+
+}
+
+.article .image{
+    
+    width: 223.2px;
+    height: 208.85px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;   
+
+}
+
+
+
+
+.article-contain .title{ 
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+.article-contain .subtitle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+
+
+}
+.notes{
+    width: 633.82px;
+    height: 225.12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: auto;
+}
+
+.notes-contain .title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.notes-contain .subtitle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+     margin: 16px 0px;
+
+
+}
+.notes .image{
+    width: 138.28px;
+    height:125.50px;
+    left: 8.14%;
+    right: -8.14%;
+    top: 14.06%;
+    bottom: -14.06%;
+}
+
+.inspairation{
+    width: 700px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: auto;
+}
+
+
+.inspairation-content .title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 27px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    padding: 0px;
+
+}
+
+.inspairation-content .subtitle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 20px 0px;
+
+}
+.inspairation .video{
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0px;   
+    text-align: center;
+}
+
+
+
+
+.Target {
+    width: 950px;
+    height: 429px; 
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px;    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: auto;
+
+    
+
+}
+.modify{
+
+
+    margin-bottom: 50px;
+}
+
+.Target-content .title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;   
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;   
+}
+
+.Target-content .subtitle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;  
+    opacity: 0.7;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;   
+
+}
+
+.target-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Target-content1{
+    width: 243px;
+    height: 201px; 
+    padding: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;  
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 76, 30, 0.05);
+}
+.Target-content1 .image1{
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px -10px;  
+
+}
+.Target-content1 .title1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;   
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 8px 0px;   
+
+
+}
+.Target-content1 .subtitle1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 8px 0px;   
+    
+
+
+
+}
+.Target-content1 .button1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;   
+}
+
+
+.Target-content2{
+    width: 243px;
+    height: 201px; 
+    padding: 27px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 20px;  
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    background:#797d870d;
+
+}
+.Target-content2 .title2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;   
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 8px 0px;  
+}
+
+.Target-content2 .subtitle2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 8px 0px;      
+}
+
+.Target-content2 .image2{
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px -10px;  
+   
+}
+.Target-content2 .button2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.Target-content3{
+    width: 243px;
+    height: 201px; 
+    padding: 27px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 20px;  
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; 
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.Target-content3 .title3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;   
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 8px 0px;    
+}
+.Target-content3 .subtitle3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 8px 0px; 
+
+}
+
+.target-container3 .image3{
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 20px;  
+
+}
+.target-container3 .button3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;  
+}
+
+.my{
+    width: 890px;
+    height: 350px;
+    
+    display: flex;
+    justify-content: center;
+
+    
+
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-radius: 15px;
+
+}
+
+
+
+.support-contain .title{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 25px;
+    font-weight: 600px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;    
+}
+    
+
+.support-contain .subtitle{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center; 
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;    
+
+
+}
+
+.support-search{
+    
+    width: 725px;
+    height:52px;
+}
+.support-search input[type="text"]{
+    width: 55%;
+    height:100%;
+    margin-left: 77px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: px;
+
+    
+}
+.support-search input[type="button"]{
+    width: 30%;
+    height: 107%;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    border-radius: 15px
+    
+}
+
+
+
+
+.commitment-border {
+    margin-top: 50px;
+    width: 1100px;
+    height: 100px;
+    
+}
+
+.open .title { 
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+.open{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 100px;
+    
+     
+
+}
+.open ul{
+    display: flex;
+    
+
+}
+li{
+    list-style: none;
+   
+}
+
+
+
+
+
+
